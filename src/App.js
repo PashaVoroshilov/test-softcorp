@@ -4,6 +4,7 @@ import { PageContent } from "components/modules/PageContent";
 import { Footer } from "components/modules/Footer";
 import {BannerSlider} from "components/widgets/BannerSlider";
 import {CategoriesWidget} from "components/widgets/CategoriesWidget";
+import {BannerSection} from "components/widgets/BannerSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <PageContent>
               <BannerSlider />
               <CategoriesWidget />
+              <BannerSection />
           </PageContent>
           <Footer />
       </Layout>
