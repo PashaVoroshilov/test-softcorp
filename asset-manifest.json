@@ -1,10 +1,15 @@
 {
   "files": {
     "main.css": "/test-softcorp/static/css/main.cb498dd8.css",
-    "main.js": "/test-softcorp/static/js/main.71c11d98.js",
+    "main.js": "/test-softcorp/static/js/main.15d0ca3e.js",
     "static/media/Banner-2.jpg": "/test-softcorp/static/media/Banner-2.c0a8fdf3e054992ac92a.jpg",
     "static/media/Banner-1.jpg": "/test-softcorp/static/media/Banner-1.9158e932be257bedf8a7.jpg",
     "static/media/1.jpg": "/test-softcorp/static/media/1.b80e981fd76359ee39b0.jpg",
+    "static/media/3.jpg": "/test-softcorp/static/media/3.559f5bfc05e56ce2d228.jpg",
+    "static/media/2.jpg": "/test-softcorp/static/media/2.092a0ca9b4656c0c6da6.jpg",
+    "static/media/5.jpg": "/test-softcorp/static/media/5.54f2f056f6c181586194.jpg",
+    "static/media/6.jpg": "/test-softcorp/static/media/6.56c5e430ddebe517fcea.jpg",
+    "static/media/4.jpg": "/test-softcorp/static/media/4.b8304dbf089baa54cb48.jpg",
     "static/media/logo.svg": "/test-softcorp/static/media/logo.599ddf0e66c5fedb45bbcb3c743395fd.svg",
     "static/media/support.svg": "/test-softcorp/static/media/support.864d8234d38ac7e2938f33f3bf82228b.svg",
     "static/media/lightins.svg": "/test-softcorp/static/media/lightins.5856949567b13ba2c387657567cc0d61.svg",
@@ -20,10 +25,10 @@
     "static/media/burger.svg": "/test-softcorp/static/media/burger.6827b702d02c9af850516f91d5d5e598.svg",
     "static/media/search.svg": "/test-softcorp/static/media/search.8adc03bd27bdc637b33a8aba3e543f4e.svg",
     "main.cb498dd8.css.map": "/test-softcorp/static/css/main.cb498dd8.css.map",
-    "main.71c11d98.js.map": "/test-softcorp/static/js/main.71c11d98.js.map"
+    "main.15d0ca3e.js.map": "/test-softcorp/static/js/main.15d0ca3e.js.map"
   },
   "entrypoints": [
     "static/css/main.cb498dd8.css",
-    "static/js/main.71c11d98.js"
+    "static/js/main.15d0ca3e.js"
   ]
 }
