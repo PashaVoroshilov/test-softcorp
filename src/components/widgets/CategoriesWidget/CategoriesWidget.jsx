@@ -4,7 +4,6 @@ import {LiveButton} from "components/elements/LiveButton";
 import {Slider} from "components/modules/Slider";
 import {SwiperSlide} from "swiper/react";
 import {WIDGETS_DATA} from 'constans/WIDGETS_DATA';
-import sliderImg from 'assets/images/categories/1.jpg';
 
 import * as css from './CategoriesWidget.css';
 
@@ -46,7 +45,7 @@ const CategoriesWidget = () => {
                                 <SwiperSlide key={item.id}>
                                     <css.SlideWrapper as="a" href="#">
                                         <css.SliderImgWrapper>
-                                            <css.SliderImg src={sliderImg} />
+                                            <css.SliderImg src={item.img} />
                                         </css.SliderImgWrapper>
                                         <css.SliderTitle>{item.title}</css.SliderTitle>
                                     </css.SlideWrapper>
