@@ -14,6 +14,7 @@ export const media = {
 export const colors = {
     mainColor: '#212121',
     black: '#000',
+    black90: '#1B1B1B',
     gray100: '#6F6F6F',
     gray90: '#9B9591',
     gray80: '#C4C4C4',

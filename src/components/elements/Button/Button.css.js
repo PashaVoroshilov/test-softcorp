@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.link`
+export const Button = styled.link`
   display: flex;
   align-items: center;
   justify-content: center;
