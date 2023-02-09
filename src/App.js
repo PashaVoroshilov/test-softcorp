@@ -5,6 +5,7 @@ import { Footer } from "components/modules/Footer";
 import {BannerSlider} from "components/widgets/BannerSlider";
 import {CategoriesWidget} from "components/widgets/CategoriesWidget";
 import {BannerSection} from "components/widgets/BannerSection";
+import {Advantages} from "components/widgets/Advantages";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               <BannerSlider />
               <CategoriesWidget />
               <BannerSection />
+              <Advantages />
           </PageContent>
           <Footer />
       </Layout>

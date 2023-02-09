@@ -1,9 +1,15 @@
 import * as css from './Icon.css'
 
-const Icon = ({ src: Src, ...props }) => {
+const Icon = ({ src: Src, img = false, ...props }) => {
     return (
         <css.Root {...props}>
-            <Src />
+            {
+                img ? (
+                    <img src={img} alt="" />
+                ) : (
+                    <Src />
+                )
+            }
         </css.Root>
     )
 }
