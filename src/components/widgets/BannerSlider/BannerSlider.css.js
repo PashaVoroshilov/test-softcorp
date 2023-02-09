@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.section`
+export const Root = styled.section``
+
+export const SliderRoot = styled.div`
   border-radius: 16rem;
   overflow: hidden;
   
@@ -36,6 +38,10 @@ export const Item = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media ${media.tabletS} {
+    min-height: 250rem;
+  }
   
   @media ${media.tablet} {
     display: flex;
@@ -46,6 +52,9 @@ export const Item = styled.div`
 `
 
 export const Wrapper = styled.div`
+  @media ${media.tabletS} {
+    max-width: 365rem;
+  }
   @media ${media.tablet} {
     max-width: 585rem;
   }
