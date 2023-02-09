@@ -17,6 +17,7 @@ export const colors = {
     gray100: '#6F6F6F',
     gray90: '#9B9591',
     gray80: '#C4C4C4',
+    gray70: '#E2E0DF',
     white90: '#F5F5F5',
     white100: '#FFF',
     blue: '#4859F0',

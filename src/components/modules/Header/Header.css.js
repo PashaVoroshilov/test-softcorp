@@ -13,7 +13,7 @@ export const Root = styled(Flex)`
   
   @media ${media.tablet} {
     display: block;
-    padding: 12rem 0 24rem;
+    padding: 12rem 0 21rem;
   }
 `
 

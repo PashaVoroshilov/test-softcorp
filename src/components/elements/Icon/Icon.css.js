@@ -5,13 +5,12 @@ export const Root = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: ${({ width }) => width || '25rem'};
-  height: ${({ height }) => height || '25rem'};
+  height: ${({height}) => height?.sm || '25rem'};
+  width: ${({width}) => width?.sm || '25rem'};
   color: ${({ color }) => color};
   
   @media ${media.tablet} {
-    width: ${({ width }) => width || '30rem'};
-    height: ${({ height }) => height || '30rem'};
-    color: ${({ color }) => color};
+    height: ${({height}) => height?.md || '30rem'};
+    width: ${({width}) => width?.md  || '30rem'};
   }
 `

@@ -5,17 +5,17 @@ export const Root = styled.link`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: ${({height: {sm}}) => sm};
-  width: ${({width: {sm}}) => sm};
+  height: ${({height}) => height?.sm || '45rem'};
+  width: ${({width}) => width?.sm || 'auto'};
   font-weight: 700;
-  font-size: ${({fontSize: {sm}}) => sm};
+  font-size: ${({fontSize}) => fontSize?.sm || '20rem'};
   color: ${({color}) => color || colors.white100};
   background-color: ${({backgroundColor}) => backgroundColor || colors.blue};
   border-radius: ${({borderRadius}) => borderRadius || '16rem'};
 
   @media ${media.tablet} {
-    height: ${({height: {md}}) => md};
-    width: ${({width: {md}}) => md};
-    font-size: ${({fontSize: {md}}) => md};
+    height: ${({height}) => height?.md || '65rem'};
+    width: ${({width}) => width?.md || '320rem'};
+    font-size: ${({fontSize}) =>fontSize?.md || '22rem'}
   }
 `

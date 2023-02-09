@@ -8,7 +8,7 @@ const Modal = ({children, onClose}) => {
         <css.Root>
             <css.Header>
                 <css.Close onClick={onClose}>
-                    <Icon src={CloseIcon} />
+                    <Icon src={CloseIcon} width />
                 </css.Close>
             </css.Header>
             <css.Wrapper>
