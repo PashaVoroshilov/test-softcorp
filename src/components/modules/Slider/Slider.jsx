@@ -98,7 +98,7 @@ Slider.defaultProps = {
     direction: 'horizontal',
     autoHeight: false,
     watchOverflow: true,
-    cssMode: true,
+    cssMode: false,
 }
 
 export default Slider
