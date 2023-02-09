@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PashaVoroshilov/PashaVoroshilov.github.io/static/css/main.cb498dd8.css",
+    "main.js": "/PashaVoroshilov/PashaVoroshilov.github.io/static/js/main.1d74ac13.js",
+    "static/media/Banner-2.jpg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/Banner-2.c0a8fdf3e054992ac92a.jpg",
+    "static/media/Banner-1.jpg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/Banner-1.9158e932be257bedf8a7.jpg",
+    "static/media/1.jpg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/1.b80e981fd76359ee39b0.jpg",
+    "static/media/logo.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/logo.599ddf0e66c5fedb45bbcb3c743395fd.svg",
+    "static/media/support.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/support.864d8234d38ac7e2938f33f3bf82228b.svg",
+    "static/media/lightins.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/lightins.5856949567b13ba2c387657567cc0d61.svg",
+    "static/media/phone.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/phone.222333e108c6935f4b2567b819831233.svg",
+    "static/media/cart.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/cart.09ac892c7568a304fde1bb67b60c223c.svg",
+    "static/media/arrow.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/arrow.72c4c8366ed194a4ad95c2c0fa1f0df3.svg",
+    "index.html": "/PashaVoroshilov/PashaVoroshilov.github.io/index.html",
+    "static/media/close.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/close.dcf639281e8f6c0ecf1542cef5b1128b.svg",
+    "static/media/productsCart.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/productsCart.62c1dacc698af6034009cd7258cdd423.svg",
+    "static/media/list.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/list.ab85142a8e3c801b4e1b207d9029c563.svg",
+    "static/media/user.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/user.64f9bedf2eba8d2aa16beb8d291f7737.svg",
+    "static/media/telegram.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/telegram.9c2496076ff371ccb2ca00d64b1c5960.svg",
+    "static/media/burger.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/burger.6827b702d02c9af850516f91d5d5e598.svg",
+    "static/media/search.svg": "/PashaVoroshilov/PashaVoroshilov.github.io/static/media/search.8adc03bd27bdc637b33a8aba3e543f4e.svg",
+    "main.cb498dd8.css.map": "/PashaVoroshilov/PashaVoroshilov.github.io/static/css/main.cb498dd8.css.map",
+    "main.1d74ac13.js.map": "/PashaVoroshilov/PashaVoroshilov.github.io/static/js/main.1d74ac13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb498dd8.css",
+    "static/js/main.1d74ac13.js"
+  ]
+}
