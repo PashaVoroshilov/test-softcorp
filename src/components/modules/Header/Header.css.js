@@ -9,11 +9,11 @@ export const Flex = styled.div`
 
 export const Root = styled(Flex)`
   justify-content: space-between;
-  padding: 20rem ${vars.containerPadding};
+  padding: 20rem ${vars.containerPaddingMobile};
   
   @media ${media.tablet} {
     display: block;
-    padding: 12rem 0 17rem;
+    padding: 12rem 0 24rem;
   }
 `
 

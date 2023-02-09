@@ -18,7 +18,7 @@ export const Root = styled.div`
 export const Item = styled.link`
   display: flex;
   align-items: center;
-  width: 50%;
+  width: calc(50% - 8rem);
   
   @media ${media.tablet} {
     width: initial;
