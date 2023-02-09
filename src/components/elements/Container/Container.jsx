@@ -2,9 +2,9 @@ import * as css from './Container.css';
 
 const Container = ({ children, ...props }) => {
     return (
-        <css.Root {...props}>
+        <css.Container {...props}>
             {children}
-        </css.Root>
+        </css.Container>
     );
 }
 

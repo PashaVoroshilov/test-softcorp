@@ -5,9 +5,10 @@ import {PhoneIcon} from "assets/icons";
 import {SubscribeInput} from "components/modules/SubscribeInput";
 import Payment from 'assets/images/payment.png'
 import {useMediaQuery} from "react-responsive";
-import {BREAKPOINTS} from "styles/vars";
+import {BREAKPOINTS, colors} from "styles/vars";
 
 import * as css from './Footer.css';
+import {Link} from "../../elements/Link";
 
 const Footer = () => {
     // eslint-disable-next-line
@@ -16,7 +17,7 @@ const Footer = () => {
     })
 
     return (
-        <css.Root>
+        <css.Footer>
             <Container>
                 <css.Wrapper>
                     <css.Row>
@@ -37,14 +38,19 @@ const Footer = () => {
                                                 {
                                                     item?.phone && (
                                                         <css.NavLink>
-                                                            <css.NavLinkIcon>
-                                                                <Icon
-                                                                    src={PhoneIcon}
-                                                                    width={{ md: '18rem', sm: '18rem' }}
-                                                                    height={{ md: '18rem', sm: '18rem' }}
-                                                                />
-                                                            </css.NavLinkIcon>
-                                                            <css.NavLinkText as="a" href="tel:+844434672">+(844) 434-672</css.NavLinkText>
+                                                            <Icon
+                                                                src={PhoneIcon}
+                                                                width={{ md: '18rem', sm: '18rem' }}
+                                                                height={{ md: '18rem', sm: '18rem' }}
+                                                                color={colors.blue}
+                                                                margin={{ sm: '0 7rem 0 0' }}
+                                                            />
+                                                            <Link
+                                                                to="tel:+844434672"
+                                                                title="+(844) 434-672"
+                                                                color={colors.white100}
+                                                                colorAfter="rgba(255, 255, 255, 0.4)"
+                                                            />
                                                         </css.NavLink>
                                                     )
                                                 }
@@ -68,7 +74,7 @@ const Footer = () => {
                     <css.CopyRight>{FOOTER_DATA.copyRightText}</css.CopyRight>
                 </css.Wrapper>
             </Container>
-        </css.Root>
+        </css.Footer>
     );
 }
 

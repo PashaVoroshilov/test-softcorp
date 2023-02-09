@@ -2,9 +2,9 @@ import * as css from './PageContent.css';
 
 const PageContent = ({ children }) => {
     return (
-        <css.Root>
+        <css.Main>
             {children}
-        </css.Root>
+        </css.Main>
     );
 }
 

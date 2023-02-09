@@ -1,16 +1,14 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 15rem;
+  justify-content: center;
+  gap: 30rem;
   
-  @media ${media.tablet} {
-    align-items: center;
+  @media ${media.tabletS} {
     gap: 23rem;
-    flex-wrap: nowrap;
     margin-left: auto;
   }
 `
@@ -18,19 +16,9 @@ export const Root = styled.div`
 export const Item = styled.link`
   display: flex;
   align-items: center;
-  width: calc(50% - 8rem);
-  
-  @media ${media.tablet} {
-    width: initial;
-  }
-`
-
-export const Icon = styled.div`
   color: ${colors.gray90};
-  margin-right: 9rem;
-  transition: color .3s;
 
-  ${Item}:hover & {
+  &:hover {
     color: ${colors.blue};
   }
 `
@@ -38,6 +26,7 @@ export const Icon = styled.div`
 export const Title = styled.div`
   font-size: 16rem;
   line-height: 19rem;
+  color: ${colors.mainColor};
   transition: color .3s;
   
   ${Item}:hover & {

@@ -2,7 +2,7 @@ import * as css from './Icon.css'
 
 const Icon = ({ src: Src, img = false, ...props }) => {
     return (
-        <css.Root {...props}>
+        <css.Icon {...props}>
             {
                 img ? (
                     <img src={img} alt="" />
@@ -10,7 +10,7 @@ const Icon = ({ src: Src, img = false, ...props }) => {
                     <Src />
                 )
             }
-        </css.Root>
+        </css.Icon>
     )
 }
 

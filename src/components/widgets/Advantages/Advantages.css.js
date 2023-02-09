@@ -8,7 +8,7 @@ const Flex = styled.div`
   justify-content: center;
 `
 
-export const Root = styled.section`
+export const Section = styled.section`
   margin-top: 40rem;
   
   @media ${media.tablet} {
@@ -18,7 +18,14 @@ export const Root = styled.section`
 
 export const List = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20rem;
+  
+  @media ${media.tablet} {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
 `
 
 export const Item = styled(Flex)``

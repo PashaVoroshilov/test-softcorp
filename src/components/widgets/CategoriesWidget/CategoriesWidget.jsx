@@ -10,7 +10,7 @@ import * as css from './CategoriesWidget.css';
 
 const CategoriesWidget = () => {
     return (
-        <css.Root>
+        <css.Section>
             <Container>
                 <css.Header>
                     <css.HeaderLeft>
@@ -56,7 +56,7 @@ const CategoriesWidget = () => {
                     }
                 </Slider>
             </Container>
-        </css.Root>
+        </css.Section>
     );
 }
 

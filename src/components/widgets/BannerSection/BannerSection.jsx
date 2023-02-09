@@ -7,7 +7,7 @@ import * as css from './BannerSection.css';
 
 const BannerSection = () => {
     return (
-        <css.Root>
+        <css.Section>
             <Container>
                 <css.Wrapper backgroundImage={Banner}>
                     <css.Block>
@@ -17,7 +17,7 @@ const BannerSection = () => {
                     </css.Block>
                 </css.Wrapper>
             </Container>
-        </css.Root>
+        </css.Section>
     );
 }
 

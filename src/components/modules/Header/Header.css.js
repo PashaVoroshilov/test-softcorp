@@ -1,13 +1,12 @@
 import styled from "styled-components";
-import {LinkHovered} from "styles/globalStyles";
-import {colors, media, vars} from "styles/vars";
+import {media, vars} from "styles/vars";
 
 export const Flex = styled.div`
   display: flex;
   align-items: center;
 `
 
-export const Root = styled(Flex)`
+export const Header = styled(Flex)`
   justify-content: space-between;
   padding: 20rem ${vars.containerPaddingMobile};
   
@@ -34,31 +33,20 @@ export const Bottom = styled(Flex)`
 export const Phone = styled(Flex)`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 9rem;
   margin-top: 20rem;
   
   @media ${media.tablet} {
     margin-top: initial;
-  }
-`
-
-export const PhoneText = styled(LinkHovered)`
-  font-size: 18rem;
-  line-height: 24rem;
-  color: ${colors.blue};
-
-  @media ${media.tablet} {
-    font-size: 22rem;
-    line-height: 27rem;
+    justify-content: stretch;
   }
 `
 
 export const Burger = styled.button`
   display: block;
-  color: ${colors.black};
 `
 
 export const SearchTrigger = styled.button`
   display: block;
-  color: ${colors.black};
 `

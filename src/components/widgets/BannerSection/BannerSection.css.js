@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.section`
+export const Section = styled.section`
   margin-top: 40rem;
   
   @media ${media.tablet} {

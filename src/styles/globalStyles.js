@@ -1,5 +1,5 @@
 import 'normalize.css';
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import { media, colors } from "./vars";
 
 export const GlobalStyles = createGlobalStyle`
@@ -102,25 +102,5 @@ export const GlobalStyles = createGlobalStyle`
       font-size: inherit;
       line-height: inherit;
     }
-  }
-`
-
-export const LinkHovered = styled.link`
-  position: relative;
-
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: rgba(72, 89, 240, 0.3);
-    transition: width .3s;
-  }
-
-  &:hover::after {
-    width: 0;
   }
 `

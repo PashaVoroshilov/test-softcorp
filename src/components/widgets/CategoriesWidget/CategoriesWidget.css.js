@@ -6,7 +6,7 @@ export const Flex = styled.div`
   align-items: center;
 `
 
-export const Root = styled.section`
+export const Section = styled.section`
   margin-top: 40rem;
   
   @media ${media.tablet} {
