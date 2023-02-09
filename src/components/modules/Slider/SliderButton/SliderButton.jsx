@@ -1,5 +1,6 @@
 import {Icon} from "components/elements/Icon";
 import {ArrowIcon} from 'assets/icons'
+import {colors} from "styles/vars";
 
 import * as css from './SliderButton.css';
 
@@ -11,6 +12,7 @@ const SliderButton = ({className}) => {
                 width={{ md: '16rem', sm: '13rem' }}
                 height={{ md: '16rem', sm: '13rem' }}
                 margin={{ md: '0 5rem 0 0', sm: '0 5rem 0 0' }}
+                color={colors.mainColor}
             />
         </css.Root>
     );

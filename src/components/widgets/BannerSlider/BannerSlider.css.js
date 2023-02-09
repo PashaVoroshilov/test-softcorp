@@ -4,8 +4,11 @@ import {colors, media} from "styles/vars";
 export const Section = styled.section``
 
 export const SliderRoot = styled.div`
-  border-radius: 16rem;
-  overflow: hidden;
+  
+  .swiper {
+    border-radius: 16rem;
+    overflow: hidden;
+  }
   
   .swiper-pagination {
     padding: 0 20rem;
