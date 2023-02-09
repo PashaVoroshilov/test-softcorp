@@ -1,6 +1,6 @@
 import 'normalize.css';
-import { createGlobalStyle } from 'styled-components';
-import {media} from "./vars";
+import styled, { createGlobalStyle } from 'styled-components';
+import { media, colors } from "./vars";
 
 export const GlobalStyles = createGlobalStyle`
   html,
@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 400;
     font-size: .27777777778vw;
     line-height: 1;
-    color: #000;
+    color: ${colors.mainColor};
     padding: 0;
     margin: 0;
     
@@ -93,5 +93,34 @@ export const GlobalStyles = createGlobalStyle`
     border: none;
     outline: none;
     margin: 0;
+  }
+  
+  input,
+  textarea {
+    &::placeholder {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+  }
+`
+
+export const LinkHovered = styled.link`
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(72, 89, 240, 0.3);
+    transition: width .3s;
+  }
+
+  &:hover::after {
+    width: 0;
   }
 `
