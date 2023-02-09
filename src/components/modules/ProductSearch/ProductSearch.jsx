@@ -13,8 +13,8 @@ const ProductSearch = () => {
             </css.IconWrapper>
             <Input
                 placeholder="Product SKU, Name…"
-                inputHeight={{ lg: '45rem', md: '40rem' }}
-                padding="0 10rem 0 53rem"
+                height={{ md: '45rem', sm: '40rem' }}
+                padding={{ md:'0 10rem 0 53rem', sm: '0 10rem 0 53rem' }}
             />
         </css.Root>
     );
