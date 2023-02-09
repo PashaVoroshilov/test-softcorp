@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.cb498dd8.css",
-    "main.js": "/react-gh-pages/static/js/main.6e6740d2.js",
-    "static/media/Banner-2.jpg": "/react-gh-pages/static/media/Banner-2.c0a8fdf3e054992ac92a.jpg",
-    "static/media/Banner-1.jpg": "/react-gh-pages/static/media/Banner-1.9158e932be257bedf8a7.jpg",
-    "static/media/1.jpg": "/react-gh-pages/static/media/1.b80e981fd76359ee39b0.jpg",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.599ddf0e66c5fedb45bbcb3c743395fd.svg",
-    "static/media/support.svg": "/react-gh-pages/static/media/support.864d8234d38ac7e2938f33f3bf82228b.svg",
-    "static/media/lightins.svg": "/react-gh-pages/static/media/lightins.5856949567b13ba2c387657567cc0d61.svg",
-    "static/media/phone.svg": "/react-gh-pages/static/media/phone.222333e108c6935f4b2567b819831233.svg",
-    "static/media/cart.svg": "/react-gh-pages/static/media/cart.09ac892c7568a304fde1bb67b60c223c.svg",
-    "static/media/arrow.svg": "/react-gh-pages/static/media/arrow.72c4c8366ed194a4ad95c2c0fa1f0df3.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/close.svg": "/react-gh-pages/static/media/close.dcf639281e8f6c0ecf1542cef5b1128b.svg",
-    "static/media/productsCart.svg": "/react-gh-pages/static/media/productsCart.62c1dacc698af6034009cd7258cdd423.svg",
-    "static/media/list.svg": "/react-gh-pages/static/media/list.ab85142a8e3c801b4e1b207d9029c563.svg",
-    "static/media/user.svg": "/react-gh-pages/static/media/user.64f9bedf2eba8d2aa16beb8d291f7737.svg",
-    "static/media/telegram.svg": "/react-gh-pages/static/media/telegram.9c2496076ff371ccb2ca00d64b1c5960.svg",
-    "static/media/burger.svg": "/react-gh-pages/static/media/burger.6827b702d02c9af850516f91d5d5e598.svg",
-    "static/media/search.svg": "/react-gh-pages/static/media/search.8adc03bd27bdc637b33a8aba3e543f4e.svg",
-    "main.cb498dd8.css.map": "/react-gh-pages/static/css/main.cb498dd8.css.map",
-    "main.6e6740d2.js.map": "/react-gh-pages/static/js/main.6e6740d2.js.map"
+    "main.css": "/test-softcorp/static/css/main.cb498dd8.css",
+    "main.js": "/test-softcorp/static/js/main.b1dbb8c5.js",
+    "static/media/Banner-2.jpg": "/test-softcorp/static/media/Banner-2.c0a8fdf3e054992ac92a.jpg",
+    "static/media/Banner-1.jpg": "/test-softcorp/static/media/Banner-1.9158e932be257bedf8a7.jpg",
+    "static/media/1.jpg": "/test-softcorp/static/media/1.b80e981fd76359ee39b0.jpg",
+    "static/media/logo.svg": "/test-softcorp/static/media/logo.599ddf0e66c5fedb45bbcb3c743395fd.svg",
+    "static/media/support.svg": "/test-softcorp/static/media/support.864d8234d38ac7e2938f33f3bf82228b.svg",
+    "static/media/lightins.svg": "/test-softcorp/static/media/lightins.5856949567b13ba2c387657567cc0d61.svg",
+    "static/media/phone.svg": "/test-softcorp/static/media/phone.222333e108c6935f4b2567b819831233.svg",
+    "static/media/cart.svg": "/test-softcorp/static/media/cart.09ac892c7568a304fde1bb67b60c223c.svg",
+    "static/media/arrow.svg": "/test-softcorp/static/media/arrow.72c4c8366ed194a4ad95c2c0fa1f0df3.svg",
+    "index.html": "/test-softcorp/index.html",
+    "static/media/close.svg": "/test-softcorp/static/media/close.dcf639281e8f6c0ecf1542cef5b1128b.svg",
+    "static/media/productsCart.svg": "/test-softcorp/static/media/productsCart.62c1dacc698af6034009cd7258cdd423.svg",
+    "static/media/list.svg": "/test-softcorp/static/media/list.ab85142a8e3c801b4e1b207d9029c563.svg",
+    "static/media/user.svg": "/test-softcorp/static/media/user.64f9bedf2eba8d2aa16beb8d291f7737.svg",
+    "static/media/telegram.svg": "/test-softcorp/static/media/telegram.9c2496076ff371ccb2ca00d64b1c5960.svg",
+    "static/media/burger.svg": "/test-softcorp/static/media/burger.6827b702d02c9af850516f91d5d5e598.svg",
+    "static/media/search.svg": "/test-softcorp/static/media/search.8adc03bd27bdc637b33a8aba3e543f4e.svg",
+    "main.cb498dd8.css.map": "/test-softcorp/static/css/main.cb498dd8.css.map",
+    "main.b1dbb8c5.js.map": "/test-softcorp/static/js/main.b1dbb8c5.js.map"
   },
   "entrypoints": [
     "static/css/main.cb498dd8.css",
-    "static/js/main.6e6740d2.js"
+    "static/js/main.b1dbb8c5.js"
   ]
 }
