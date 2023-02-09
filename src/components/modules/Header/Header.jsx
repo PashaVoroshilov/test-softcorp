@@ -1,13 +1,9 @@
 import HeaderMobile from "./HeaderMobile";
 import HeaderDesktop from "./HeaderDesktop";
-import {BREAKPOINTS} from "styles/vars";
-import {useMediaQuery} from "react-responsive";
+import useIsDesktop from "Hooks/useIsDesktop";
 
 const Header = () => {
-    // eslint-disable-next-line
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${BREAKPOINTS.md}px)`
-    })
+    const isDesktop = useIsDesktop();
 
     return (
         isDesktop ? <HeaderDesktop /> : <HeaderMobile />

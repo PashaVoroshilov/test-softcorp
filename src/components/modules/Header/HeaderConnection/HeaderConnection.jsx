@@ -9,8 +9,8 @@ const HeaderConnection = () => {
         <css.HeaderConnection>
             <css.List>
                 {
-                    HEADER_DATA.connectionList.map((item, index) => (
-                        <css.Item as="li" key={index}>
+                    HEADER_DATA.connectionList.map((item) => (
+                        <css.Item as="li" key={item.id}>
                             <Link
                                 to="#"
                                 title={item.title}

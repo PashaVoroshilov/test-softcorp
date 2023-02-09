@@ -1,15 +1,13 @@
 import {Icon} from "components/elements/Icon";
 import {TelegramIcon} from 'assets/icons'
-import {BREAKPOINTS, colors} from "styles/vars";
-import {useMediaQuery} from "react-responsive";
+import {colors} from "styles/vars";
+import useIsDesktop from "Hooks/useIsDesktop";
 
 import * as css from './LiveButton.css';
 
 const LiveButton = () => {
-    // eslint-disable-next-line
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${BREAKPOINTS.md}px)`
-    })
+    const isDesktop = useIsDesktop();
+
     return (
         <css.Button>
             {isDesktop && <css.Text>Live Chat</css.Text>}

@@ -4,17 +4,14 @@ import {Icon} from "components/elements/Icon";
 import {PhoneIcon} from "assets/icons";
 import {SubscribeInput} from "components/modules/SubscribeInput";
 import Payment from 'assets/images/payment.png'
-import {useMediaQuery} from "react-responsive";
-import {BREAKPOINTS, colors} from "styles/vars";
+import {colors} from "styles/vars";
+import {Link} from "components/elements/Link";
+import useIsDesktop from "Hooks/useIsDesktop";
 
 import * as css from './Footer.css';
-import {Link} from "../../elements/Link";
 
 const Footer = () => {
-    // eslint-disable-next-line
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${BREAKPOINTS.md}px)`
-    })
+    const isDesktop = useIsDesktop();
 
     return (
         <css.Footer>
@@ -25,12 +22,12 @@ const Footer = () => {
                             isDesktop && (
                                 <css.Nav>
                                     {
-                                        FOOTER_DATA.navigation.map((item, index) => (
-                                            <css.NavItem key={index}>
+                                        FOOTER_DATA.navigation.map((item) => (
+                                            <css.NavItem key={item.id}>
                                                 <css.NavTitle>{item.title}</css.NavTitle>
                                                 {
-                                                    item.list.map((listItem, index) => (
-                                                        <css.NavLink key={index} as="a" href="#">
+                                                    item.list.map((listItem) => (
+                                                        <css.NavLink key={listItem.id} as="a" href="#">
                                                             {listItem.title}
                                                         </css.NavLink>
                                                     ))

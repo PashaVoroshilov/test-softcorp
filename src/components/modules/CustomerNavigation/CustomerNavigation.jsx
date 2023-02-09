@@ -1,15 +1,12 @@
 import {Icon} from "components/elements/Icon";
 import { ListIcon, UserIcon, LightningIcon, CartIcon } from 'assets/icons'
-import {useMediaQuery} from "react-responsive";
-import {BREAKPOINTS} from "styles/vars";
+import useIsDesktop from "Hooks/useIsDesktop";
+
 
 import * as css from './CustomerNavigation.css';
 
 const CustomerNavigation = () => {
-    // eslint-disable-next-line
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${BREAKPOINTS.md}px)`
-    })
+    const isDesktop = useIsDesktop();
 
     return (
         <css.Wrapper>
