@@ -34,10 +34,7 @@ export const SliderRoot = styled.div`
 
 export const Item = styled.div`
   padding: 20rem 20rem 50rem;
-  background-image: url(${({ backgroundImage }) => backgroundImage});
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(${({ backgroundImage }) => backgroundImage}) center/cover no-repeat;
 
   @media ${media.tabletS} {
     min-height: 250rem;

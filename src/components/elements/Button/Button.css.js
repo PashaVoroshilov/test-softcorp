@@ -12,6 +12,12 @@ export const Root = styled.link`
   color: ${({color}) => color || colors.white100};
   background-color: ${({backgroundColor}) => backgroundColor || colors.blue};
   border-radius: ${({borderRadius}) => borderRadius || '16rem'};
+  transition: color .3s, background-color .3s;
+  
+  &:hover {
+    color: ${colors.mainColor};
+    background-color: ${colors.white90};
+  }
 
   @media ${media.tablet} {
     height: ${({height}) => height?.md || '65rem'};
