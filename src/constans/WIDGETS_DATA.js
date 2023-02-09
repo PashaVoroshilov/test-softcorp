@@ -2,53 +2,69 @@ export const WIDGETS_DATA = {
     greet: [
         {
             title: 'Fiberglass and specialty metals are in stock across the United States',
+            id: 'Fiberglass and specialty',
         },
         {
             title: 'Fiberglass and specialty metals.',
+            id: 'Fiberglass and specialty metals.',
         },
         {
             title: 'Fiberglass and specialty metals are in stock across the United States United States',
+            id: 'Fiberglass and specialty metals are in stock across the',
         },
         {
             title: 'Fiberglass and specialty metals are in stock across the United States',
+            id: '\'Fiberglass and specialty metals are in stock',
         },
     ],
     categories: [
         {
-            title: 'Abrasives'
+            title: 'Abrasives',
+            id: 'Abrasives',
         },
         {
-            title: 'Electrical'
+            title: 'Electrical',
+            id: 'Electrical',
         },
         {
-            title: 'Welding'
+            title: 'Welding',
+            id: 'Welding',
         },
         {
-            title: 'Safety'
+            title: 'Safety',
+            id: 'Safety',
         },
         {
-            title: 'Fasteners'
+            title: 'Fasteners',
+            id: 'Fasteners',
         },
         {
-            title: 'Hand Tools'
+            title: 'Hand Tools',
+            id: 'Hand Tools',
         },
         {
-            title: 'Abrasives'
+            title: 'Abrasives',
+            id: 'Abrasives1',
         },
         {
-            title: 'Electrical'
+            title: 'Electrical',
+            id: 'Electrical1',
         },
         {
-            title: 'Welding'
+            title: 'Welding',
+            id: 'Welding1',
         },
         {
-            title: 'Safety'
+            title: 'Safety',
+            id: 'Safety1',
         },
         {
-            title: 'Fasteners'
+            title: 'Fasteners',
+            id: 'Fasteners1',
         },
         {
-            title: 'Hand Tools'
+            title: 'Hand Tools',
+            id: 'Hand Tools1',
         },
     ],
     bannerSection: {

@@ -1,5 +1,4 @@
 import { HEADER_DATA } from "constans/HEADER_DATA";
-import {colors} from "styles/vars";
 import {Link} from "components/elements/Link";
 
 import * as css from './Navigation.css';
@@ -9,8 +8,8 @@ const Navigation = () => {
         <css.Navigation>
             <css.List>
                 {
-                    HEADER_DATA.navigationList.map((item, index) => (
-                        <css.Item key={index}>
+                    HEADER_DATA.navigationList.map((item) => (
+                        <css.Item key={item.id}>
                             <Link
                                 to="#"
                                 title={item.title}

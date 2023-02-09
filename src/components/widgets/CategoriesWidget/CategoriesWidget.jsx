@@ -41,9 +41,9 @@ const CategoriesWidget = () => {
                     }}
                 >
                     {
-                        WIDGETS_DATA.categories.map((item, index) => {
+                        WIDGETS_DATA.categories.map((item) => {
                             return (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={item.id}>
                                     <css.SlideWrapper as="a" href="#">
                                         <css.SliderImgWrapper>
                                             <css.SliderImg src={sliderImg} />

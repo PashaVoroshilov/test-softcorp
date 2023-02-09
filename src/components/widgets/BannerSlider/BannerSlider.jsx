@@ -18,8 +18,8 @@ const BannerSlider = () => {
                         autoHeight
                     >
                         {
-                            WIDGETS_DATA.greet.map((item, index) => (
-                                <SwiperSlide key={index}>
+                            WIDGETS_DATA.greet.map((item) => (
+                                <SwiperSlide key={item.id}>
                                     <css.Item backgroundImage={Banner}>
                                         <css.Wrapper>
                                             <css.Title>

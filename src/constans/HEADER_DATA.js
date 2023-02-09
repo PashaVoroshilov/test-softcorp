@@ -1,33 +1,42 @@
 export const HEADER_DATA = {
     connectionList: [
         {
-            title: 'Request a Sample'
+            title: 'Request a Sample',
+            id: 'Request a Sample',
         },
         {
-            title: 'Help'
+            title: 'Help',
+            id: 'Help',
         },
         {
-            title: 'Contact'
+            title: 'Contact',
+            id: 'Contact',
         },
     ],
     navigationList: [
         {
-            title: 'Products'
+            title: 'Products',
+            id: 'Products',
         },
         {
-            title: 'Resources'
+            title: 'Resources',
+            id: 'Resources',
         },
         {
-            title: 'Services'
+            title: 'Services',
+            id: 'Services',
         },
         {
-            title: 'Locations'
+            title: 'Locations',
+            id: 'Locations',
         },
         {
-            title: 'Careers'
+            title: 'Careers',
+            id: 'Careers',
         },
         {
-            title: 'Support'
+            title: 'Support',
+            id: 'Support',
         },
     ],
 }

@@ -12,8 +12,8 @@ import {Link} from "components/elements/Link";
 import * as css from './Header.css';
 
 const HeaderDesktop = () => {
-    const [openMenu, setOpenMenu] = useState(false)
-    const [openSearch, setOpenSearch] = useState(false)
+    const [isMenuOpen, setOpenMenu] = useState(false)
+    const [isSearchOpen, setOpenSearch] = useState(false)
 
     return (
         <css.Header as="header">
@@ -25,7 +25,7 @@ const HeaderDesktop = () => {
                 <Icon src={SearchIcon} color={colors.black} />
             </css.SearchTrigger>
             {
-                openMenu && (
+                isMenuOpen && (
                     <Modal onClose={() => setOpenMenu((prev) => !prev)}>
                         <Navigation />
                         <CustomerNavigation />
@@ -48,7 +48,7 @@ const HeaderDesktop = () => {
                 )
             }
             {
-                openSearch && (
+                isSearchOpen && (
                     <Modal onClose={() => setOpenSearch((prev) => !prev)}>
                         <ProductSearch />
                     </Modal>
