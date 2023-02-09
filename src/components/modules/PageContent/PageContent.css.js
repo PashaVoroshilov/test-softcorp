@@ -3,9 +3,9 @@ import {media} from "styles/vars";
 
 export const Root = styled.main`
   flex: 1;
-  padding-bottom: 20rem;
+  padding-bottom: 30rem;
   
   @media ${media.tablet} {
-    padding-bottom: 40rem;
+    padding-bottom: 112rem;
   }
 `

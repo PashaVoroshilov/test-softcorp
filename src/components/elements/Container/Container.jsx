@@ -1,8 +1,8 @@
 import * as css from './Container.css';
 
-const Container = ({ children }) => {
+const Container = ({ children, ...props }) => {
     return (
-        <css.Root>
+        <css.Root {...props}>
             {children}
         </css.Root>
     );

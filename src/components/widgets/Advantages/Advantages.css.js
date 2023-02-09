@@ -1,0 +1,48 @@
+import styled from "styled-components";
+import {colors, media} from "styles/vars";
+
+const Flex = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
+
+export const Root = styled.section`
+  margin-top: 40rem;
+  
+  @media ${media.tablet} {
+    margin-top: 107rem;
+  }
+`
+
+export const List = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+
+export const Item = styled(Flex)``
+
+export const IconWrapper = styled(Flex)`
+  width: 60rem;
+  height: 60rem;
+  color: ${colors.blue};
+  margin-bottom: 15rem;
+  
+  @media ${media.tablet} {
+    width: 80rem;
+    height: 80rem;
+    margin-bottom: 23rem;
+  }
+`
+
+export const Title = styled(Flex)`
+  font-weight: 700;
+  font-size: 18rem;
+  line-height: 24rem;
+  
+  @media ${media.tablet} {
+    font-size: 25rem;
+    line-height: 30rem;
+  }
+`
