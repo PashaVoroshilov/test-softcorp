@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.input`
+export const Input = styled.input`
   display: block;
   width: 100%;
   font-family: "Inter", sans-serif;

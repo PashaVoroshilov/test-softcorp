@@ -7,7 +7,7 @@ import * as css from './ProductSearch.css';
 
 const ProductSearch = () => {
     return (
-        <css.Root>
+        <css.Wrapper>
             <css.IconWrapper type="button">
                 <Icon src={SearchIcon} color={colors.gray90} />
             </css.IconWrapper>
@@ -16,7 +16,7 @@ const ProductSearch = () => {
                 height={{ md: '45rem', sm: '40rem' }}
                 padding={{ md:'0 10rem 0 53rem', sm: '0 10rem 0 53rem' }}
             />
-        </css.Root>
+        </css.Wrapper>
     );
 }
 

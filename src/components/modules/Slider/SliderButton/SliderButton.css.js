@@ -10,10 +10,6 @@ export const Root = styled.button`
   background-color: ${colors.white90};
   border-radius: 50%;
   
-  & > span {
-    margin-right: 5rem;
-  }
-  
   &.next {
     transform: rotate(180deg);
   }

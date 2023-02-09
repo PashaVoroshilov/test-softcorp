@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import {LinkHovered} from 'styles/globalStyles'
 import {media} from "styles/vars";
 
-export const Root = styled.nav`
+export const Navigation = styled.nav`
   margin-bottom: 20rem;
 
   @media ${media.tablet} {
@@ -25,17 +24,3 @@ export const List = styled.ul`
 `
 
 export const Item = styled.li``
-
-export const Title = styled(LinkHovered)`
-  font-size: 19rem;
-  line-height: 24rem;
-  
-  &::after {
-    background-color: rgba(155, 149, 145, 0.5);
-  }
-
-  @media ${media.tablet} {
-    font-size: 22rem;
-    line-height: 27rem;
-  }
-`

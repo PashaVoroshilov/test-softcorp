@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
-import {LinkHovered} from 'styles/globalStyles'
 
 const fontSizeStandart = styled.div`
   font-size: 15rem;
@@ -12,7 +11,7 @@ const fontSizeStandart = styled.div`
   }
 `
 
-export const Root = styled.footer``
+export const Footer = styled.footer``
 
 export const Wrapper = styled.div`
   padding: 20rem 15rem 10rem;
@@ -70,17 +69,6 @@ export const NavLink = styled(fontSizeStandart)`
   
   &:not(:last-child) {
     margin-bottom: 5rem;
-  }
-`
-
-export const NavLinkIcon = styled.div`
-  color: ${colors.blue};
-  margin-right: 7rem;
-`
-
-export const NavLinkText = styled(LinkHovered)`
-  &::after {
-    background-color: rgba(255, 255, 255, 0.4);
   }
 `
 

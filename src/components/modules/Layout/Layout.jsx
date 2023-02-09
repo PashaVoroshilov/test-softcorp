@@ -2,9 +2,9 @@ import * as css from './Layout.css'
 
 const Layout = ({ children }) => {
     return (
-        <css.Root>
+        <css.Layout>
             {children}
-        </css.Root>
+        </css.Layout>
     )
 }
 

@@ -5,16 +5,16 @@ import * as css from './Modal.css';
 
 const Modal = ({children, onClose}) => {
     return (
-        <css.Root>
+        <css.Modal>
             <css.Header>
                 <css.Close onClick={onClose}>
-                    <Icon src={CloseIcon} width />
+                    <Icon src={CloseIcon} />
                 </css.Close>
             </css.Header>
             <css.Wrapper>
                 {children}
             </css.Wrapper>
-        </css.Root>
+        </css.Modal>
     );
 }
 

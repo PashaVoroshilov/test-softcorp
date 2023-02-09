@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {media} from "styles/vars";
 
-export const Root = styled.main`
+export const Main = styled.main`
   flex: 1;
   padding-bottom: 30rem;
   

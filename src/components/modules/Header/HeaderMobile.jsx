@@ -7,6 +7,7 @@ import {Navigation} from "components/modules/Header/Navigation";
 import {CustomerNavigation} from "components/modules/CustomerNavigation";
 import {ProductSearch} from "components/modules/ProductSearch";
 import {colors} from "styles/vars";
+import {Link} from "components/elements/Link";
 
 import * as css from './Header.css';
 
@@ -15,13 +16,13 @@ const HeaderDesktop = () => {
     const [openSearch, setOpenSearch] = useState(false)
 
     return (
-        <css.Root as="header">
+        <css.Header as="header">
             <css.Burger type="button" onClick={() => setOpenMenu((prev) => !prev)}>
-                <Icon src={BurgerIcon} />
+                <Icon src={BurgerIcon} color={colors.black} />
             </css.Burger>
             <css.Logo src={LogoIcon} />
             <css.SearchTrigger type="button" onClick={() => setOpenSearch((prev) => !prev)}>
-                <Icon src={SearchIcon} />
+                <Icon src={SearchIcon} color={colors.black} />
             </css.SearchTrigger>
             {
                 openMenu && (
@@ -29,8 +30,19 @@ const HeaderDesktop = () => {
                         <Navigation />
                         <CustomerNavigation />
                         <css.Phone>
-                            <Icon src={PhoneIcon} width="25rem" height="25rem" color={colors.blue} />
-                            <css.PhoneText as="a" href="tel:+844434672">+(844) 434-672</css.PhoneText>
+                            <Icon
+                                src={PhoneIcon}
+                                color={colors.blue}
+                                width={{ md: '25rem', sm: '25rem' }}
+                                height={{ md: '25rem', sm: '25rem' }}
+                            />
+                            <Link
+                                to="tel:+844434672"
+                                title="+(844) 434-672"
+                                fontSize={{ md: '22rem', sm: '18rem' }}
+                                lineHeight={{ md: '27rem', sm: '24rem' }}
+                                color={colors.blue}
+                            />
                         </css.Phone>
                     </Modal>
                 )
@@ -42,7 +54,7 @@ const HeaderDesktop = () => {
                     </Modal>
                 )
             }
-        </css.Root>
+        </css.Header>
     );
 }
 

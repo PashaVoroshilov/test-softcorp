@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.section``
+export const Section = styled.section``
 
 export const SliderRoot = styled.div`
   border-radius: 16rem;

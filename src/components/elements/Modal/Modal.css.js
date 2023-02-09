@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import {colors, vars} from "styles/vars";
+import {colors, media, vars} from "styles/vars";
 
-export const Root = styled.div`
+export const Modal = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -10,9 +10,13 @@ export const Root = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${colors.white100};
-  padding: 0 ${vars.containerPadding} 20rem;
+  padding: 0 ${vars.containerPaddingMobile} 20rem;
   z-index: 10;
   overflow: hidden auto;
+  
+  @media ${media.tablet} {
+    padding: 0 ${vars.containerPadding} 20rem;
+  }
 `
 
 export const Header = styled.div`

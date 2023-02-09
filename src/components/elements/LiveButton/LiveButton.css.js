@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {colors, media} from "styles/vars";
 
-export const Root = styled.button`
+export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: space-between;

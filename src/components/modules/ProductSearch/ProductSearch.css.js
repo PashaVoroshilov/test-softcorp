@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {media} from "styles/vars";
 
-export const Root = styled.div`
+export const Wrapper = styled.div`
   position: relative;
   
   @media ${media.tablet} {

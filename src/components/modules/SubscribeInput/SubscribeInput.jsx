@@ -6,7 +6,7 @@ import * as css from './SubscribeInput.css';
 
 const SubscribeInput = () => {
     return (
-        <css.Root>
+        <css.Wrapper>
             <Input
                 placeholder="Your E-mail"
                 height={{ md: '57rem', sm: '40rem' }}
@@ -23,7 +23,7 @@ const SubscribeInput = () => {
                 fontSize={{ sm: '16rem' }}
                 borderRadius="8rem"
             />
-        </css.Root>
+        </css.Wrapper>
     );
 }
 

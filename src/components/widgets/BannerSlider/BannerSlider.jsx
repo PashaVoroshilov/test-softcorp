@@ -9,7 +9,7 @@ import * as css from './BannerSlider.css';
 
 const BannerSlider = () => {
     return (
-        <css.Root>
+        <css.Section>
             <Container>
                 <css.SliderRoot>
                     <Slider
@@ -37,7 +37,7 @@ const BannerSlider = () => {
                     </Slider>
                 </css.SliderRoot>
             </Container>
-        </css.Root>
+        </css.Section>
     );
 }
 

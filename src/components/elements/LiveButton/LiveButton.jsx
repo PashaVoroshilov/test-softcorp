@@ -11,7 +11,7 @@ const LiveButton = () => {
         query: `(min-width: ${BREAKPOINTS.md}px)`
     })
     return (
-        <css.Root>
+        <css.Button>
             {isDesktop && <css.Text>Live Chat</css.Text>}
             <Icon
                 src={TelegramIcon}
@@ -19,7 +19,7 @@ const LiveButton = () => {
                 height={{ md: '26rem', sm: '17rem' }}
                 color={colors.white100}
             />
-        </css.Root>
+        </css.Button>
     );
 }
 

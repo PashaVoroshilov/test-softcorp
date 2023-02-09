@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {Button} from "components/elements/Button/Button.css"
 
-export const Root = styled.div`
+export const Wrapper = styled.div`
   position: relative;
   
   ${Button} {
